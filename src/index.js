@@ -10,7 +10,7 @@
 //`;
 
 function createTable() {
-  var body = document.body;
+  var body = document.getElementById("board");
   var tbl = document.createElement("table");
   /*   tbl.style.width = "100px";
   tbl.style.border = "1px solid black"; */
