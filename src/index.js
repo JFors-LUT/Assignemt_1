@@ -12,8 +12,9 @@
 function createTable() {
   var body = document.getElementById("board");
   var tbl = document.createElement("table");
-  /*   tbl.style.width = "100px";
-  tbl.style.border = "1px solid black"; */
+  tbl.style.width = "100px";
+  tbl.style.border = "1px solid black";
+  tbl.style.borderCollapse = "collapse";
 
   for (var i = 0; i < 5; i++) {
     var tr = tbl.insertRow();
